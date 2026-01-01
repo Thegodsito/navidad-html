@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #fa709a;
+            font-size: 2.5em;
+            border-bottom: 4px solid #fa709a;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #fa709a;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #667eea;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        ol, ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            line-height: 2;
+            color: #666;
+        }
+        
+        .info-card {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .info-card h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .nav-link {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s;
+        }
+        
+        .nav-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👤 Sobre mí</h1>
+        
+        <p>Me llamo Santiago y estoy estudiando DAW (Desarrollo de Aplicaciones Web). Este año estamos aprendiendo HTML y pronto empezaremos con CSS. La verdad es que me está gustando bastante porque nunca había hecho páginas web antes.</p>
+        
+        <div class="info-card">
+            <h3>📚 Mis Estudios</h3>
+            <p>Actualmente estoy en 2º de DAW y las asignaturas que más me gustan son:</p>
+            <ol>
+                <li><strong>Lenguaje de marcas</strong> - Esta misma, donde aprendemos HTML</li>
+                <li><strong>Programación</strong> - Me encanta crear aplicaciones</li>
+                <li><strong>Bases de datos</strong> - Es muy útil saber gestionar información</li>
+            </ol>
+        </div>
+        
+        <h2>💻 Por qué me gusta la programación</h2>
+        <p>Me parece interesante porque puedes crear cosas desde cero. Con solo escribir código puedes hacer aplicaciones, páginas web, juegos...</p>
+        <p>Antes solo usaba el ordenador para navegar por internet y jugar, pero ahora estoy aprendiendo cómo funcionan las cosas por dentro. Es fascinante ver cómo una línea de código puede hacer que algo aparezca en la pantalla.</p>
+        
+        <h3>🎯 Lo que quiero aprender</h3>
+        <p>Después de HTML quiero aprender bien JavaScript para hacer páginas más interactivas. También me gustaría aprender algún framework como React o Vue, que están muy demandados en el mercado laboral.</p>
+        
+        <div class="info-card">
+            <h3>📝 Sobre esta tarea</h3>
+            <p>Esta tarea consiste en hacer una web con todo lo que hemos visto en el tema 1 y 2. Hay que subirlo a GitHub y publicarlo con GitHub Pages para que todo el mundo pueda verlo.</p>
+            <p>La verdad es que al principio me parecía difícil pero cuando empiezas a practicar se va entendiendo mejor. Lo importante es ir paso a paso y no desanimarse.</p>
+        </div>
+        
+        <h2>🚀 Mis objetivos</h2>
+        <ul>
+            <li>Terminar el ciclo de DAW con buenas notas</li>
+            <li>Dominar HTML, CSS y JavaScript</li>
+            <li>Crear mi propio portfolio web profesional</li>
+            <li>Conseguir prácticas en una empresa de desarrollo</li>
+            <li>Seguir aprendiendo nuevas tecnologías</li>
+        </ul>
+        
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">← Volver a mi página</a>
+            <a href="../index.html" class="nav-link">🏠 Inicio principal</a>
+        </div>
+    </div>
+</body>
+</html>

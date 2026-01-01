@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Texto y Agrupación de contenido</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            min-height: 100vh;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 4px solid #fcb69f;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .content-box {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s;
+        }
+        
+        .back-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>📝 Texto y Agrupación de contenido</h1>
+        
+        <div class="content-box" style="background-color: #bf9cf3;">
+            <h2>div</h2>
+            <p>Emplea las etiquetas div</p>
+            <p>Emplea los colores bf9cf3, f0f0a0 y 53ffba</p>
+        </div>
+        
+        <div class="content-box" style="background-color: #f0f0a0;">
+            <h2>Negrita y cursiva</h2>
+            <p><b>negrita</b> y <i>cursiva</i>.</p>
+        </div>
+        
+        <div class="content-box" style="background-color: #53ffba;">
+            <h2>pre</h2>
+            <pre>Usa reformateo, etiqueta &lt;pre&gt;
+El preformateo en HTML se refiere a mostrar el texto exactamente
+tal como está escrito en el código
+&lt;>!"·$%&/()"</pre>
+        </div>
+        
+        <p style="color: #eb2525; font-weight: bold; font-size: 1.1em;">Texto destacado en rojo #eb2525 y font-weight: bold</p>
+        
+        <a href="../index.html" class="back-link">← Volver al índice</a>
+    </div>
+</body>
+</html>

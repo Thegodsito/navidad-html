@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Aficiones</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #30cfd0;
+            font-size: 2.5em;
+            border-bottom: 4px solid #30cfd0;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #30cfd0;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .hobby-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #30cfd0;
+        }
+        
+        .hobby-card h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+        
+        .conclusion {
+            background: #fff9c4;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #fbc02d;
+            margin: 25px 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .nav-link {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s;
+        }
+        
+        .nav-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Mis Aficiones</h1>
+        
+        <p>En mi tiempo libre me gusta hacer varias cosas. Aquí te cuento algunas de mis aficiones favoritas:</p>
+        
+        <div class="hobby-card">
+            <h2>🎮 Videojuegos</h2>
+            <p>Me gustan bastante los videojuegos. Juego sobre todo a juegos online con mis amigos. Los que más juego son shooters y juegos de estrategia.</p>
+            <p>También me gustan los juegos de mundo abierto tipo GTA o Red Dead. Me parece increíble la cantidad de trabajo que hay detrás de estos juegos y algún día me gustaría participar en el desarrollo de uno.</p>
+        </div>
+        
+        <div class="hobby-card">
+            <h2>⚽ Deporte</h2>
+            <p>Intento hacer deporte aunque no siempre tengo tiempo. Me gusta jugar al fútbol y también voy al gimnasio cuando puedo.</p>
+            <p>Creo que es importante mantenerse activo y en forma, además de que el deporte ayuda a despejar la mente después de estudiar.</p>
+        </div>
+        
+        <div class="hobby-card">
+            <h2>💻 Informática y tecnología</h2>
+            <p>Como estoy estudiando DAW me interesa todo lo relacionado con informática. Me gusta probar nuevos programas y aplicaciones, ver tutoriales de programación y estar al día de las últimas tecnologías.</p>
+            <p>También veo videos en YouTube sobre programación y tecnología. Hay canales muy buenos que explican conceptos complejos de forma sencilla.</p>
+        </div>
+        
+        <div class="hobby-card">
+            <h2>🎵 Música</h2>
+            <p>Escucho música todos los días. Me gusta el trap, reggaeton, y también algo de rock dependiendo del momento.</p>
+            <p>La música me ayuda a concentrarme cuando estoy programando o haciendo tareas.</p>
+        </div>
+        
+        <div class="hobby-card">
+            <h2>📺 Ver series y películas</h2>
+            <p>Ver series es algo que hago bastante. Me gustan las series de acción, ciencia ficción y también las comedias.</p>
+            <p>En Netflix y HBO hay muchas series buenas. Últimamente he estado viendo series relacionadas con tecnología como Mr. Robot o Silicon Valley.</p>
+        </div>
+        
+        <h2 style="margin-top: 50px;">📅 Mi semana típica</h2>
+        <p>Así más o menos distribuyo mi tiempo durante la semana:</p>
+        
+        <table>
+            <tr>
+                <th>Día</th>
+                <th>Qué hago</th>
+            </tr>
+            <tr>
+                <td><strong>Lunes</strong></td>
+                <td>Clases por la mañana, deberes por la tarde</td>
+            </tr>
+            <tr>
+                <td><strong>Martes</strong></td>
+                <td>Clases, gimnasio</td>
+            </tr>
+            <tr>
+                <td><strong>Miércoles</strong></td>
+                <td>Clases, practicar programación</td>
+            </tr>
+            <tr>
+                <td><strong>Jueves</strong></td>
+                <td>Clases, videojuegos con amigos</td>
+            </tr>
+            <tr>
+                <td><strong>Viernes</strong></td>
+                <td>Clases, salir con amigos</td>
+            </tr>
+            <tr>
+                <td><strong>Sábado</strong></td>
+                <td>Descansar, deporte, salir</td>
+            </tr>
+            <tr>
+                <td><strong>Domingo</strong></td>
+                <td>Familia, hacer deberes pendientes</td>
+            </tr>
+        </table>
+        
+        <div class="conclusion">
+            <p><strong>💡 Conclusión:</strong> Como ves intento hacer un poco de todo, aunque entre semana no tengo mucho tiempo libre por las clases y los deberes. Lo importante es encontrar un equilibrio entre estudiar, hacer ejercicio, disfrutar de los hobbies y pasar tiempo con familia y amigos.</p>
+        </div>
+        
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">← Volver a mi página</a>
+            <a href="../index.html" class="nav-link">🏠 Inicio principal</a>
+        </div>
+    </div>
+</body>
+</html>
